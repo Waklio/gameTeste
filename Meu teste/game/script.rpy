@@ -17,7 +17,7 @@ image ruina = "images/ruina1.png"
 # The game starts here.
 
 label start:
-
+    play music "audio/windsound.ogg"
     scene solescaldante:
         zoom 1.88
     with pixellate
@@ -38,20 +38,25 @@ label start:
     with dissolve       
     z "Poisé, então conserva as tuas forças e cale a boca"
 
+    stop music
+
     scene solescaldante:
         zoom 1.88
     with fade
     n "Pouco tempo de depois"
 
     hide solescaldante
+
+    play music "audio/taram.ogg" noloop
+
     scene ruina:
         zoom 1.88
     with dissolve
-    n "E quando ela iriam de arrasta pra cima, surgiu..."
+    n "E quando elas iriam de arrasta pra cima, surgiu..."
 
     show Dirda at left:
         zoom 0.5
-    d "estamos a salvo"
+    d "É uma ruina ??? Estamos á salvo"
     
     show Zebê at right:
         zoom 0.5

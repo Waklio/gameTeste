@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 59: Line is indented, but the preceding with statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show Zebê at right:
+File "game/script.rpy", line 24: Line is indented, but the preceding stop music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    with pixellate
     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Thu Mar 21 13:47:16 2024
+Thu Mar 21 15:10:01 2024
