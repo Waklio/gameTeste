@@ -1,24 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 21, in script
-    n  "Perdidas no deserto de solbral"
-Exception: Sayer 'n' is not defined.
+  File "game/script.rpy", line 128, in script
+    Z "Quero a Dirda de volta"
+Exception: Sayer 'Z' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 21, in script
-    n  "Perdidas no deserto de solbral"
+  File "game/script.rpy", line 128, in script
+    Z "Quero a Dirda de volta"
   File "C:\Users\Waklio\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
     Say.execute(self)
   File "C:\Users\Waklio\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
     who = eval_who(self.who, self.who_fast)
   File "C:\Users\Waklio\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'n' is not defined.
+Exception: Sayer 'Z' is not defined.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.2.1.24030407
 Meu teste 1.0
-Tue Mar 19 21:48:05 2024
+Fri Mar 22 16:27:11 2024
