@@ -93,8 +93,7 @@ label start:
     scene ruina:
         zoom 1.88
     show genio at center:
-        zoom 0.5
-        
+        zoom 0.5    
     play music"audio/risada.ogg"noloop
 
     show Dirda  at left:
@@ -102,14 +101,15 @@ label start:
 
     show zebê at right:
         zoom 0.5
-    g "Eu sou genivaldo o gênio, por me libertarem vos concendo 2 desejo pra cada uma ??"
-    g "Façam a sua escolha"
+    g "Eu sou genivaldo o gênio, por me libertarem concendo a vocÊs 1 desejo pra cada uma ??"
+    g "APENAS UM"
 
-    n "Escolha o personagem"
+    n "Escolha o personagem que irá fazer o pedido primeiro"
      
     menu:
         "Dirda":
             $Dirda = True
+            jump endGame
                 
         "Zebê":
             $Dirda = False
@@ -123,28 +123,36 @@ label start:
             d "Quero ir pra casa"
             g " Feito"
     play music"audio/winner.ogg"
-    n " BOM JOGO"
+    n " BOM JOGO, Escolha certa"
 
+    return
+
+
+    label endGame:
     if Dirda == True:
         hide zebê
         d "Certo, vou primeiro"
         d "Quero voltar pra casa"
         hide Dirda
         n "Dirda desaparece e volta pra casa"
-        g "Feito"
+    g "Feito"
 
-    if Dirda == False:
-        hide Dirda
-        z " Quero a Dirda de volta pra cá "
-        n "Dirda desaparece"
-    g " Agora é a sua vez Zebê"
-    show Zebê at right:
+    g "E você Zebê?"
+
+    show zebê at right:
         zoom 0.5
-    z "Quero a Dirda de volta" 
+        
+        
+    z "Traga ela de volta"
+    g "Feito"
+        
     show Dirda at left:
-            zoom 0.5
-    play music"audio/lose.ogg"noloop
-    n " Final Ruim"
+        zoom 0.5
+    play music"audio/lose.ogg"
+    n " Fim do jogo, vc perdeu."
+    
+
+  
 
 
 

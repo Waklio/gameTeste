@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 113: expected menuitem
-    hide zebê
-    ^
-
-File "game/script.rpy", line 129: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    "Zebê":
-    ^
-
-File "game/script.rpy", line 132: if statement expects a non-empty block.
-    if Dirda == True:
-                     ^
+File "game/script.rpy", line 142: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    z "Traga ela de volta"
+                          ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Fri Mar 22 16:31:19 2024
+Sun Mar 24 21:12:12 2024
