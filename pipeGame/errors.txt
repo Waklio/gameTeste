@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/pipe-minigame.rpy", line 13: expected statement.
+    def create_pipes():
+                    ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Sat Jun  1 13:33:18 2024
