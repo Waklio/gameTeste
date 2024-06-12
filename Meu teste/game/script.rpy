@@ -35,7 +35,7 @@ label start:
         zoom 0.5
     with dissolve    
     
-    d "Se continuar assim a gente morre de ensolação"
+    d "Se continuar assim a gente  vai morrer de ensolação"
 
     hide Dirda  
     with fade
@@ -51,7 +51,7 @@ label start:
     scene solescaldante:
         zoom 1.88
     with fade
-    n "Pouco tempo de depois"
+    n "Horas e mais Horas depois..."
 
     hide solescaldante
 
@@ -60,11 +60,11 @@ label start:
     scene ruina:
         zoom 1.88
     with dissolve
-    n "E quando elas iriam de arrasta pra cima, surgiu..."
+    n "E quando elas estavam perto de ir de arrasta pra cima, surge..."
 
     show Dirda at left:
         zoom 0.5
-    d "É uma ruina ??? Estamos á salvo"
+    d "É uma ruina ???"
     
     show Zebê at right:
         zoom 0.5
@@ -75,7 +75,7 @@ label start:
 
     show zebê at right:
         zoom 0.5
-    z "o que é isso enterrado na areia ??"
+    z "Hum o que é isso enterrado na areia ??"
     z "É uma lampâda mágica"
     scene ruina:
         zoom 1.88
@@ -84,11 +84,11 @@ label start:
 
     show Dirda at left:
         zoom 0.5
-    d "que sorte a nossa"
+    d "Que sorte "
     hide Dirda
     hide Zebê
 
-    n"A Dirda pega lampada e esfrega e então..."
+    n"A Dirda pega lampada, esfrega e então..."
 
     scene ruina:
         zoom 1.88
@@ -101,7 +101,7 @@ label start:
 
     show zebê at right:
         zoom 0.5
-    g "Eu sou genivaldo o gênio, por me libertarem concendo a vocÊs 1 desejo pra cada uma ??"
+    g "Eu sou genivaldo o gênio, por me libertarem concendo a vocês 1 desejo para cada uma."
     g "APENAS UM"
 
     n "Escolha o personagem que irá fazer o pedido primeiro"

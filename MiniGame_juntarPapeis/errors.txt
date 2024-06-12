@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 181: keyword argument 'xpos' is incompatible with 'xalign'.
+    xpos gui.dialogue_xpos
+        ^
+
+File "game/e-o-gera/renpy/common/00director.rpy", line 1526: keyword argument 'xalign' is incompatible with 'xpos'.
+    xalign 1.0
+          ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Wed Jun 12 00:43:13 2024
